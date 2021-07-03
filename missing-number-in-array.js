@@ -1,7 +1,4 @@
 // TASK: Find the missing number in a given integer array of 1 to 100
-
-const array = [1, 2, 4, 5, 6, 7, 8, 9];
-
 const findMissingNumber = (array) => {
   let missingNumber;
   const lastElement = array[array.length - 1];
@@ -18,4 +15,4 @@ const findMissingNumber = (array) => {
   return missingNumber;
 };
 
-console.log(findMissingNumber(array));
+console.log(findMissingNumber([1, 2, 4, 5, 6, 7, 8, 9]));
